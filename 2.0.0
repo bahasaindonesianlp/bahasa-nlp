@@ -1,0 +1,33 @@
+Collecting spacy
+  Downloading https://files.pythonhosted.org/packages/b9/d8/26120ca4a5b1a6fe215ccb01185cee41098eb61386b3fd3a7b28c085146a/spacy-2.2.3-cp37-cp37m-macosx_10_6_intel.whl (14.2MB)
+Requirement already satisfied: requests<3.0.0,>=2.13.0 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from spacy) (2.21.0)
+Collecting preshed<3.1.0,>=3.0.2
+  Downloading https://files.pythonhosted.org/packages/c7/3e/9aaba1f8c0cb69e57ebeb411cc1b65b3f6bfc3572dd68969a6d3e59288f6/preshed-3.0.2-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (211kB)
+Collecting blis<0.5.0,>=0.4.0
+  Downloading https://files.pythonhosted.org/packages/85/d8/f0be9d8ebec9cbeea1427de6ac0ecc919c0bfe881eff2d2965dbc310ca8b/blis-0.4.1-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl (4.0MB)
+Collecting thinc<7.4.0,>=7.3.0
+  Downloading https://files.pythonhosted.org/packages/a6/87/c7da01c45bf3c138242f19f09b987d0ffa632ac7e8508527ee34d3ebbd81/thinc-7.3.1-cp37-cp37m-macosx_10_6_intel.whl (3.0MB)
+Collecting srsly<1.1.0,>=0.1.0
+  Downloading https://files.pythonhosted.org/packages/22/33/fa6fed9e0dbadc75f1f88780ae7a5182f3dd4019a007a7a787468965355e/srsly-1.0.1-cp37-cp37m-macosx_10_6_intel.whl (271kB)
+Collecting cymem<2.1.0,>=2.0.2
+  Downloading https://files.pythonhosted.org/packages/63/34/a8b682ee9b57db35a5fe4e179b77c1bda0f6a09745669a99cfc27aa2bed7/cymem-2.0.3-cp37-cp37m-macosx_10_6_intel.whl (54kB)
+Requirement already satisfied: numpy>=1.15.0 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from spacy) (1.16.0)
+Collecting plac<1.2.0,>=0.9.6
+  Downloading https://files.pythonhosted.org/packages/86/85/40b8f66c2dd8f4fd9f09d59b22720cffecf1331e788b8a0cab5bafb353d1/plac-1.1.3-py2.py3-none-any.whl
+Collecting wasabi<1.1.0,>=0.4.0
+  Downloading https://files.pythonhosted.org/packages/21/e1/e4e7b754e6be3a79c400eb766fb34924a6d278c43bb828f94233e0124a21/wasabi-0.6.0-py3-none-any.whl
+Requirement already satisfied: setuptools in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from spacy) (42.0.2.post20191203)
+Collecting catalogue<1.1.0,>=0.0.7
+  Downloading https://files.pythonhosted.org/packages/6c/f9/9a5658e2f56932e41eb264941f9a2cb7f3ce41a80cb36b2af6ab78e2f8af/catalogue-1.0.0-py2.py3-none-any.whl
+Collecting murmurhash<1.1.0,>=0.28.0
+  Downloading https://files.pythonhosted.org/packages/b9/bd/faace403086ee922afc74e5615cb8c21020fcf5d5667314e943c08f71fde/murmurhash-1.0.2-cp37-cp37m-macosx_10_6_intel.macosx_10_9_intel.macosx_10_9_x86_64.macosx_10_10_intel.macosx_10_10_x86_64.whl
+Requirement already satisfied: certifi>=2017.4.17 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy) (2019.11.28)
+Requirement already satisfied: urllib3<1.25,>=1.21.1 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy) (1.24.3)
+Requirement already satisfied: chardet<3.1.0,>=3.0.2 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy) (3.0.4)
+Requirement already satisfied: idna<2.9,>=2.5 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from requests<3.0.0,>=2.13.0->spacy) (2.8)
+Requirement already satisfied: tqdm<5.0.0,>=4.10.0 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from thinc<7.4.0,>=7.3.0->spacy) (4.40.2)
+Requirement already satisfied: importlib-metadata>=0.20; python_version < "3.8" in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from catalogue<1.1.0,>=0.0.7->spacy) (1.3.0)
+Requirement already satisfied: zipp>=0.5 in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy) (0.6.0)
+Requirement already satisfied: more-itertools in /Users/mtjokro/miniconda3/envs/ipy37/lib/python3.7/site-packages (from zipp>=0.5->importlib-metadata>=0.20; python_version < "3.8"->catalogue<1.1.0,>=0.0.7->spacy) (7.2.0)
+Installing collected packages: murmurhash, cymem, preshed, blis, srsly, plac, wasabi, thinc, catalogue, spacy
+Successfully installed blis-0.4.1 catalogue-1.0.0 cymem-2.0.3 murmurhash-1.0.2 plac-1.1.3 preshed-3.0.2 spacy-2.2.3 srsly-1.0.1 thinc-7.3.1 wasabi-0.6.0
